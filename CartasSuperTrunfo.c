@@ -1,13 +1,16 @@
 #include <stdio.h>
 
 int main() {
+    /*Para declaração das variaveis lembrar que o array nunca pode ser exato 
+    pois a entrada de dados sempre termina com cactere nulo que também ocupa espaço*/
+    
     // Variáveis da Carta 1
-    char estado1, codigo1[3], nomeCidade1[25];
+    char estado1, codigo1[4], nomeCidade1[30];
     int populacao1, pontosTuristicos1;
     float area1, pib1;
 
     // Variáveis da Carta 2
-    char estado2, codigo2[3], nomeCidade2[25];
+    char estado2, codigo2[4], nomeCidade2[30];
     int populacao2, pontosTuristicos2;
     float area2, pib2;
     
